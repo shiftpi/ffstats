@@ -1,0 +1,41 @@
+/**
+ * ffstats
+ * Copyright (c) 2015. Andreas Rutz. Published under MIT license.
+ */
+
+.container {
+    max-width: 730px;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.header {
+    padding: 2em 0 1em 0;
+}
+
+.jumbotron h1{
+    color: #dc0067;
+}
+
+a, a:hover, a:active, a:focus {
+    color: #a7004e;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    font-family: Ubuntu, Verdana, sans-serif;
+}
+
+li {
+    font-weight: bold;
+}
+
+li span {
+    font-weight: normal;
+}

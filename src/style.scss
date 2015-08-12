@@ -1,0 +1,47 @@
+/**
+ * ffstats
+ * Copyright (c) 2015. Andreas Rutz. Published under MIT license.
+ */
+
+$magentaMain: #dc0067;
+$magentaDark: #a7004e;
+$pageWidth: 730px;
+ 
+h1, h2, h3 {
+    margin-top: 0;
+    font-family: Ubuntu, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    &, &:hover, &:active, &:focus {
+        color: $magentaDark;
+    }
+}
+
+li {
+    font-weight: bold;
+    
+    span {
+        font-weight: normal;
+    }
+}
+ 
+.container {
+    max-width: $pageWidth;
+}
+
+.jumbotron {
+    text-align: center;
+    
+    h1{
+        color: $magentaMain;
+    }
+}
+
+.header {
+    padding: 2em 0 1em 0;
+}
