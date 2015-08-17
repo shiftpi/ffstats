@@ -5,9 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Freifunk ffs-stetten</title>
+    <title>Freifunk</title>
     
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
     <link href="style.min.css" rel="stylesheet" />
     
     <link rel="apple-touch-icon" type="image/png" href="apple-touch-icon.png" />
@@ -38,16 +37,15 @@
             <div class="col-lg-12">
                 <h3>Datenblatt</h3>
                 <ul class="list-unstyled">
-                    <li>Routername: <span data-key="hostname"></span></li>
-                    <li>Gateway: <span data-key="gateway"></span></li>
-                    <li>Kontakt: <span><a href="" data-key="contact"></a></span></li>
-                    <li>Uptime: <span data-key="uptime"></span></li>
-                    <li>Aktive Clients: <span data-key="clients"></span></li>
+                    <li>Routername: <span data-key="hostname" data-type="string"></span></li>
+                    <li>Gateway: <span data-key="gateway" data-type="string"></span></li>
+                    <li>Kontakt: <span><a href="" data-key="contact" data-type="mail"></a></span></li>
+                    <li>Uptime: <span data-key="uptime" data-type="duration"></span></li>
+                    <li>Aktive Clients: <span data-key="clients" data-type="number"></span></li>
                 </ul>
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="script.min.js"></script>
 </body>
 </html>

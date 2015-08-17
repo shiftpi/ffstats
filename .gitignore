@@ -5,3 +5,5 @@
 .idea
 .project
 .settings
+node_modules
+.gulp-scss-cache

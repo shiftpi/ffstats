@@ -4,8 +4,8 @@
  */
  
 var config = {
-    apiPath: './api.lua',
+    apiPath: './cgi-bin/api',
     hostnameKey: 'hostname',
     titlePrefix: 'Freifunk ',
     updateInterval: 5000
-}
+};
